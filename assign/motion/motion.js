@@ -18,9 +18,11 @@ function  movingobject(e)
 	{
        boxleft +=2;
        box.style.left=boxleft+'px';
+       console.log(boxleft);
        if (boxleft>=600) 
        {
        	boxleft -=2;
+
        }
 	}
 	if (e.keyCode==97 || e.keyCode == 65) // to move left
